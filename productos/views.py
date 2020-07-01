@@ -4,6 +4,6 @@ from .models import Cerveza
 from .serializers import CervezaSerializer
 # Create your views here.
 
-class ChelaViewSet(viewsets.ModelViewSet):
+class CervezaViewSet(viewsets.ModelViewSet):
     serializer_class = CervezaSerializer
     queryset = Cerveza.objects.all()
