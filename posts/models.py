@@ -10,4 +10,4 @@ class Posts(models.Model):
 
 
     def __str__(self):
-        return self.marca
+        return self.tile
